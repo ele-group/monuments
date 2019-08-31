@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="Default" file=".game/sprites/Hero.png" fixtureData="Array" fixtureType="" frameHeight="150" frameWidth="100" metaAutoSize="" metaCentred="" speed="5">
+  <animation indexes="10" name="Default"/>
+  <animation indexes="11" name="DefaultAgo"/>
+  <animation indexes="0,1,2,3,4" name="Goes"/>
+  <animation indexes="5,6,7,8,9" name="GoesAgo"/>
+</sprite>

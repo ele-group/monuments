@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="Fire" file=".game/sprites/Fire.png" fixtureData="Array" fixtureType="" frameHeight="64" frameWidth="37" metaAutoSize="" metaCentred="" speed="2">
+  <animation indexes="0,1,2" name="Fire"/>
+</sprite>

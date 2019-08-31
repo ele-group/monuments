@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="background">
+    <behaviour radius="10" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image_logo">
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="10" spread="0.48780487804878" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_theEnd">
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="2.5" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="button_map">
+    <behaviour delay="0" duration="150" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
+  </target>
+</behaviours>

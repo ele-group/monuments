@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Frog">
+    
+  <method name="doButton_nextMouseDownLeft">
+      <gameLoadScene dest="Map" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  </class>
+</root>

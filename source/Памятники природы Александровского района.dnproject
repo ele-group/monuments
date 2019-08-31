@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="Вова" authorOS="Windows 8.1" createdAt="1486143732868" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Памятники природы Александровского района" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1567245837836">
+  <openedFiles>
+  <file selected="1" src="Памятники природы Александровского района.dnproject"/>
+    <file src="src/app/forms/Screen.php"/>
+    <file src="src/app/forms/Menu.php"/>
+    <file src="src/app/forms/Download.php"/>
+    <file src="src/app/forms/LevelOneB.php"/>
+    <file src="src/app/forms/LevelTwoB.php"/>
+    <file src="src/app/forms/LevelThreeB.php"/>
+    <file src="src/app/forms/LevelFourB.php"/>
+    <file src="src/app/forms/LevelFiveB.php"/>
+    <file src="src/app/forms/LevelSixB.php"/>
+    <file src="src/app/forms/Finish.php"/>
+    <file src="src/app/forms/Dragon.php"/>
+    <file src="src/app/forms/Elephant.php"/>
+    <file src="src/app/forms/Frog.php"/>
+    <file src="src/app/forms/Hippo.php"/>
+    <file src="src/app/forms/Turtle.php"/>
+    <file src="src/app/forms/Map.php"/>
+    <file src="src/.game/sprites/Hero.sprite"/>
+    <file src="src/app/modules/MainModule.php"/>
+  </openedFiles>
+  <files>
+  </files>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+  </behaviours>
+<tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/app"/>
+      <path src="/src/app/forms"/>
+      <path src="/src/app/modules"/>
+    </expanded>
+  </tree>
+</project>

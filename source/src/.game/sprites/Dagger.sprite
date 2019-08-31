@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite defaultAnimation="" file=".game/sprites/Dagger.png" fixtureData="Array" fixtureType="" frameHeight="64" frameWidth="64" metaAutoSize="" metaCentred="" speed="4">
+  <animation indexes="0,1,2,3" name="Dagger"/>
+</sprite>

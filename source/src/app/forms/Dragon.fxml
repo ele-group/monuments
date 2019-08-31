@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624" prefWidth="1024" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="624" id="background" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1024">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_dragon" image=".data/img/monument dragon.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/sunset.jpg" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="288" id="image_dragon" layoutX="104" layoutY="24" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="808">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_dragon" layoutX="107.7255859375" layoutY="272" prefHeight="280" prefWidth="816" styleClass="label " text="Скала Дракон имеет 11 метров длину, а ширину и высоту – по 4 метра. Дракон замер у самой бровки дороги на село Калиновское. На его спине когда-то птицы лакомились сорванными рядом спелыми ягодами боярышника. Семена упали в расщелину камня и проросли. И вот уже в этом месте, у самого хвоста, разрослось роскошное дерево. Барынька крепко сдружилась с Драконом, её корни, пронизав тело чудовища, ушли далеко в песок. Дожди поят их живительной влагой. Особенно красиво деревце весной, когда сплошь покрывается бело-розовыми цветами. И видится в этом торжество жизни над злом хозяина тёмного подземелья." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+      <font>
+        <Font name="Calibri" size="22"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_dragon" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="24" color="#669966" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d804d" id="button_next" layoutX="848" layoutY="560" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Далее" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Impact" size="20"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button_next" visible="1"/>
+  </children>
+</AnchorPane>

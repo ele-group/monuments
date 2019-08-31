@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624" prefWidth="1024" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="624" id="background" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1024">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_logo" image=".data/img/sprite dragon.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/sunset.jpg" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="272" id="image_logo" layoutX="376" layoutY="48" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="272">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_theEnd" layoutX="105.7919921875" layoutY="272" prefHeight="280" prefWidth="816" styleClass="label " text="Поздравляем! Ты прошёл игру &quot;Памятники природы Александровского района&quot;, а также узнал о местных памятниках природы." textAlignment="LEFT" textFill="#330033" underline="false" wrapText="true">
+      <font>
+        <Font name="Microsoft JhengHei" size="22"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_theEnd" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="24" color="#9c318f" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#89287d" id="button_map" layoutX="848" layoutY="560" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Карта" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Impact" size="20"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button_map" visible="1"/>
+  </children>
+</AnchorPane>
