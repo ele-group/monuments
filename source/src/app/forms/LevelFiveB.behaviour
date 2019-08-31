@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="background">
+    <behaviour radius="7" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label_eat">
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="4" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" delay="0" duration="1000" repeatCount="-1" scale="1.1" type="behaviour\custom\PulseAnimationBehaviour" when="ALWAYS"/>
+    <behaviour direction="HORIZONTAL" type="behaviour\custom\CameraSnapBehaviour"/>
+  </target>
+  <target id="appleRed_1">
+    <behaviour direction="HORIZONTAL" type="behaviour\custom\CameraSnapBehaviour"/>
+    <behaviour animated="1" delay="30000" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="appleRed_2">
+    <behaviour direction="HORIZONTAL" type="behaviour\custom\CameraSnapBehaviour"/>
+    <behaviour animated="1" delay="35000" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="appleRed_3">
+    <behaviour direction="HORIZONTAL" type="behaviour\custom\CameraSnapBehaviour"/>
+    <behaviour animated="1" delay="40000" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="appleBonus_1">
+    <behaviour direction="HORIZONTAL" type="behaviour\custom\CameraSnapBehaviour"/>
+    <behaviour animated="1" delay="50000" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="appleBonus_2">
+    <behaviour direction="HORIZONTAL" type="behaviour\custom\CameraSnapBehaviour"/>
+    <behaviour animated="1" delay="60000" duration="300" repeatCount="-1" type="behaviour\custom\AutoDestroyBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="sound">
+    <behaviour direction="HORIZONTAL" type="behaviour\custom\CameraSnapBehaviour"/>
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10.731707317073" spread="0.34146341463415" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="question_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="question_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour color="#ffffff" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="fire">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="NONE" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour color="#e6804d" offsetX="0" offsetY="0" radius="3" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="spikes_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour delay="0" duration="2500" offsetX="200" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="spikes_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour delay="0" duration="2500" offsetX="200" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="spikes_3">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour delay="0" duration="2500" offsetX="200" offsetY="0" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="hippo">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour radius="1" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="Earth">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="Unit">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="Unit2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="spike_1">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour delay="0" duration="2000" offsetX="0" offsetY="200" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="spike_2">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour delay="0" duration="2000" offsetX="0" offsetY="200" repeatCount="-1" type="behaviour\custom\VibrationAnimationBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="wall">
+    <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="MATERIAL" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="object_player">
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
+    <behaviour position="CENTER" type="behaviour\custom\CameraTargetBehaviour"/>
+    <behaviour animated="1" changeAngle="" direction="ALL" speed="200" tileHeight="32" tileWidth="32" type="behaviour\custom\GridMovementBehaviour" wasd=""/>
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="1" type="behaviour\custom\DraggingBehaviour"/>
+  </target>
+</behaviours>

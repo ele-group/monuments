@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Screen">
+    <method name="doCircle_closeMouseDownLeft">
+      <applicationShutdown/>
+    </method>
+    
+  <method name="doCircle_menuMouseDownLeft">
+      <gameLoadScene dest="Menu" dest-type="form" source="reflection" source-type="object"/>
+    </method>
+  <method name="doKeyDownEsc">
+      <gameLoadScene dest="Menu" dest-type="form" source="reflection" source-type="object"/>
+    </method>
+  </class>
+</root>

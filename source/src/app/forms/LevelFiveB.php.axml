@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="LevelFiveB">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doObject_playerCollisionimag">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionimag">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionimag">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionima">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionimag">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionobject">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionima">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="image7" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doObject_playerCollisionima">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="image10" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doObject_playerCollisionimag">
+      <hideForm form="LevelFive" form-type="form"/>
+      <showForm form="Hippo" form-type="form"/>
+      <phpLine expr="$lvl5 = 'true';" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('lvl5',$lvl5,'monuments');" expr-type="expr"/>
+    </method>
+    
+    <method name="doObject_playerGlobalKeyDownRi">
+      <GameChangeAnimation animation="Hero" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerGlobalKeyUpL">
+      <GameChangeAnimation animation="DefaultAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerGlobalKeyUpRi">
+      <GameChangeAnimation animation="Default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doAppleBonus_2Dest">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="labelAlt" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doSoundMouseDownL">
+      <openMedia autoplay="1" autoplay-type="flag" id="general" id-type="string" source="res://.data/audio/Staryj_dobryj_Mario_-_muzyka_iz_mario_(xMusic.me).mp3" source-type="string"/>
+    </method>
+  <method name="doObject_playerGlobalKeyDownL">
+      <GameChangeAnimation animation="GoesAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyDownLeft">
+      <GameChangeAnimation animation="GoesAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyDownRight">
+      <GameChangeAnimation animation="Goes" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyUpLeft">
+      <GameChangeAnimation animation="DefaultAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyUpRight">
+      <GameChangeAnimation animation="Default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage11">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage13">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage16">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage3">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage15">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionobjectAlt">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage8">
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="appleBonus_1" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage9">
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="appleBonus_2" object-type="object"/>
+    </method>
+  <method name="doAppleBonus_2Destroy">
+      <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="label_eat" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doObject_playerCollisionimage17">
+      <elementDestroy object="~sender" object-type="object"/>
+      <phpLine expr="$lvl5 = 'true';" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('lvl5',$lvl5,'monuments');" expr-type="expr"/>
+      <gameLoadScene dest="Hippo" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  </class>
+</root>

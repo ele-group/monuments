@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624" prefWidth="2024" styleClass="">
+  <children>
+    <GameBackground focusTraversable="false" height="624" id="background" layoutX="0" layoutY="0" styleClass="without-focus " width="2024"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" image=".data/img/sunset.jpg" velocityX="-2" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#996600" focusTraversable="false" height="8" id="Earth" layoutX="8" layoutY="560" opacity="0" stroke="#994d00" strokeType="INSIDE" strokeWidth="2" styleClass="" width="2024"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-Earth" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#b3e6e6" focusTraversable="false" height="560" id="Unit" layoutX="8" layoutY="0" opacity="0" stroke="#99cccc" strokeType="INSIDE" strokeWidth="2" styleClass="" width="8"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-Unit" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#b3e6e6" focusTraversable="false" height="560" id="Unit2" layoutX="2024" layoutY="0" opacity="0" stroke="#99cccc" strokeType="INSIDE" strokeWidth="2" styleClass="" width="8"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-Unit2" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="150" id="object_player" layoutX="192" layoutY="400" styleClass="" width="100"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-object_player" sprite="Hero" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="216" id="image_tree" layoutX="16" layoutY="344" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="112">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_tree" image=".data/img/tree.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="24" id="spike_1" layoutX="448" layoutY="272" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-spike_1" image=".data/img/spikes.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="144" id="image_cloud_1" layoutX="376" layoutY="232" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="168">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_cloud_1" image=".data/img/cloud.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="appleRed_1" layoutX="8" layoutY="8" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="48">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-appleRed_1" image=".data/img/apple.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="appleRed_2" layoutX="48" layoutY="8" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="48">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-appleRed_2" image=".data/img/apple.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="appleRed_3" layoutX="88" layoutY="8" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="48">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-appleRed_3" image=".data/img/apple.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="appleBonus_1" layoutX="136" layoutY="8" mosaic="false" mosaicGap="0" opacity="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-appleBonus_1" image=".data/img/bonus apple.jpg" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="question_1" layoutX="232" layoutY="232" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-question_1" image=".data/img/bonus point.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="question_2" layoutX="696" layoutY="232" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-question_2" image=".data/img/bonus point.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="appleBonus_2" layoutX="176" layoutY="8" mosaic="false" mosaicGap="0" opacity="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-appleBonus_2" image=".data/img/bonus apple.jpg" visible="1"/>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="24" id="spikes_1" layoutX="632" layoutY="528" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-spikes_1" image=".data/img/spikes.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="wall" layoutX="896" layoutY="488" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="88">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-wall" image=".data/img/fence.png" visible="1"/>
+    <SpriteView animationEnabled="false" focusTraversable="false" height="64" id="fire" layoutX="1056" layoutY="552" styleClass="" width="37"/>
+    <Data animated="1" cursor="DEFAULT" enabled="1" id="data-fire" sprite="Fire" visible="1"/>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="24" id="spikes_2" layoutX="1192" layoutY="528" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-spikes_2" image=".data/img/spikes.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="24" id="spike_2" layoutX="1408" layoutY="208" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-spike_2" image=".data/img/spikes.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="144" id="image_cloud_2" layoutX="1336" layoutY="168" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="168">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image_cloud_2" image=".data/img/cloud.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="24" id="spikes_3" layoutX="1512" layoutY="528" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-spikes_3" image=".data/img/spikes.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="136" id="hippo" layoutX="1808" layoutY="424" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="200">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-hippo" image=".data/img/sprite hippo.png" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_eat" layoutX="6" layoutY="14" opacity="0" prefHeight="50" prefWidth="1016" styleClass="label " text="Еда закончилась" textAlignment="CENTER" textFill="#9c318f" underline="false" wrapText="false">
+      <font>
+        <Font name="Impact" size="40"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label_eat" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="sound" layoutX="960" layoutY="64" mosaic="false" mosaicGap="0" opacity="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="48">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-sound" image=".data/img/sound.png" visible="1"/>
+  </children>
+</AnchorPane>

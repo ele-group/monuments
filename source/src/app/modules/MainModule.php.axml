@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainModule">
+    <method name="doPlayerPlay">
+      <openMedia autoplay="1" autoplay-type="flag" id="mediaView" id-type="object" source="res://.data/audio/Staryj_dobryj_Mario_-_muzyka_iz_mario_(xMusic.me).mp3" source-type="string"/>
+    </method>
+  </class>
+</root>

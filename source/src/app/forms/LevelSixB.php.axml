@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="LevelSixB">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doAppleRed_3Dest">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="label" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doObject_playerCollisionimag">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionimag">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionima">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionima">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerCollisionim">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="imageAlt" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doObject_playerCollisionima">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="image4" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doObject_playerCollisionimag">
+      <hideForm form="LevelSix" form-type="form"/>
+      <showForm form="Elephant" form-type="form"/>
+      <phpLine expr="$lvl6 = 'true';" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('lvl6',$lvl6,'monuments');" expr-type="expr"/>
+    </method>
+    <method name="doObject_playerGlobalKeyDownL">
+      <GameChangeAnimation animation="Ago" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerGlobalKeyDownRi">
+      <GameChangeAnimation animation="Hero" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerGlobalKeyUpL">
+      <GameChangeAnimation animation="DefaultAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerGlobalKeyUpRi">
+      <GameChangeAnimation animation="Default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doSoundMouseDownL">
+      <openMedia autoplay="1" autoplay-type="flag" id="general" id-type="string" source="res://.data/audio/Staryj_dobryj_Mario_-_muzyka_iz_mario_(xMusic.me).mp3" source-type="string"/>
+    </method>
+  <method name="doObject_playerGlobalKeyDownLeft">
+      <GameChangeAnimation animation="GoesAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyDownRight">
+      <GameChangeAnimation animation="Goes" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyUpLeft">
+      <GameChangeAnimation animation="DefaultAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyUpRight">
+      <GameChangeAnimation animation="Default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage6">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage7">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage10">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage11">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage">
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="mushroom_1" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage3">
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="mushroom_2" object-type="object"/>
+    </method>
+  <method name="doAppleRed_3Destroy">
+      <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="label_eat" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doObject_playerCollisionimage12">
+      <elementDestroy object="~sender" object-type="object"/>
+      <phpLine expr="$lvl6 = 'true';" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('lvl6',$lvl6,'monuments');" expr-type="expr"/>
+      <gameLoadScene dest="Elephant" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  </class>
+</root>

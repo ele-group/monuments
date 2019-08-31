@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="LevelTwoB">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doKeyDownCtrl+Z">
+      <showForm form="Map" form-type="form"/>
+      <minimizeForm form="LevelTwo" form-type="form" restore="" restore-type=""/>
+    </method>
+  <method name="doObject_playerCollisionima">
+      <elementSetX object="~sender" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+      <elementSetY object="~sender" object-type="object" relative="" relative-type="" value="400" value-type="integer"/>
+    </method>
+    <method name="doObject_playerCollisionimage">
+      <elementSetX object="~sender" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+      <elementSetY object="~sender" object-type="object" relative="" relative-type="" value="400" value-type="integer"/>
+    </method>
+    <method name="doObject_playerCollisionima">
+      <elementSetX object="~sender" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+      <elementSetY object="~sender" object-type="object" relative="" relative-type="" value="400" value-type="integer"/>
+    </method>
+    <method name="doObject_playerCollisionimag">
+      <elementSetX object="~sender" object-type="object" relative="" relative-type="" value="0" value-type="integer"/>
+      <elementSetY object="~sender" object-type="object" relative="" relative-type="" value="400" value-type="integer"/>
+    </method>
+    <method name="doObject_playerCollisionima">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="image12" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doObject_playerCollisionima">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="image13" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doObject_playerCollisionimag">
+      <hideForm form="LevelTwo" form-type="form"/>
+      <showForm form="Turtle" form-type="form"/>
+      <phpLine expr="$lvl2 = 'true';" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('lvl2',$lvl2,'monuments');" expr-type="expr"/>
+    </method>
+    <method name="doObject_playerGlobalKeyDownL">
+      <GameChangeAnimation animation="Ago" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerGlobalKeyDownRi">
+      <GameChangeAnimation animation="Hero" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerGlobalKeyUpL">
+      <GameChangeAnimation animation="DefaultAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doObject_playerGlobalKeyUpRi">
+      <GameChangeAnimation animation="Default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+    <method name="doAppleRed_4Dest">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="labelAlt" object-type="object" value="1" value-type="float"/>
+    </method>
+    <method name="doSoundMouseDownL">
+      <openMedia autoplay="1" autoplay-type="flag" id="general" id-type="string" source="res://.data/audio/Staryj_dobryj_Mario_-_muzyka_iz_mario_(xMusic.me).mp3" source-type="string"/>
+    </method>
+  <method name="doObject_playerGlobalKeyDownLeft">
+      <GameChangeAnimation animation="GoesAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyDownRight">
+      <GameChangeAnimation animation="Goes" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyUpLeft">
+      <GameChangeAnimation animation="DefaultAgo" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerGlobalKeyUpRight">
+      <GameChangeAnimation animation="Default" animation-type="string" object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  <method name="doObject_playerCollisionimageAlt">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage3">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage8">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage10">
+      <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage4">
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="mushroom_1" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage7">
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="mushroom_2" object-type="object"/>
+    </method>
+  <method name="doAppleRed_3Destroy">
+      <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="label_eat" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doObject_playerCollisionimage11">
+      <elementDestroy object="~sender" object-type="object"/>
+      <phpLine expr="$lvl2 = 'true';" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('lvl2',$lvl2,'monuments');" expr-type="expr"/>
+      <gameLoadScene dest="Turtle" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  </class>
+</root>

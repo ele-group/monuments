@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Menu">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doButton_exitMouseDownL">
+      <toast value="Упс! Произошла ошибка: новостей нет." value-type="string"/>
+    </method>
+    <method name="doButton_gameMouseDownL">
+      <toast value="Упс! Произошла ошибка: новостей нет." value-type="string"/>
+    </method>
+    <method name="doButton_mapMouseDownL">
+      <toast value="Упс! Произошла ошибка: новостей нет." value-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  <method name="doButton_exitMouseDownLeft">
+      <applicationShutdown/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doButton_mapMouseEnter">
+      <ifVar method="equals" method-type="" name="lvl1" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <behaviourEnable behaviour="behaviour\custom\PulseAnimationBehaviour" behaviour-type="string" object="image_lock" object-type="object"/>
+    </method>
+  <method name="doButton_mapMouseExit">
+      <ifVar method="equals" method-type="" name="lvl1" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <behaviourDisable behaviour="behaviour\custom\PulseAnimationBehaviour" behaviour-type="string" object="image_lock" object-type="object"/>
+    </method>
+  <method name="doButton_mapMouseDownLeft">
+      <ifVar method="equals" method-type="" name="lvl1" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <gameLoadScene dest="Map" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <else/>
+      <message kind="ERROR" kind-type="string" value="Упс! Вы ещё не нашли карту!" value-type="string" wait="" wait-type=""/>
+    </method>
+  
+  
+  
+  <method name="doConstruct">
+      <setVar name="lvl1" name-type="" value="$this-&gt;ini-&gt;get('lvl1','monuments')" value-type="expr"/>
+      <setVar name="lvl2" name-type="" value="$this-&gt;ini-&gt;get('lvl2','monuments')" value-type="expr"/>
+      <setVar name="lvl3" name-type="" value="$this-&gt;ini-&gt;get('lvl3','monuments')" value-type="expr"/>
+      <setVar name="lvl4" name-type="" value="$this-&gt;ini-&gt;get('lvl4','monuments')" value-type="expr"/>
+      <setVar name="lvl5" name-type="" value="$this-&gt;ini-&gt;get('lvl5','monuments')" value-type="expr"/>
+      <setVar name="lvl6" name-type="" value="$this-&gt;ini-&gt;get('lvl6','monuments')" value-type="expr"/>
+      <ifExpr expr="$GLOBALS['lvl1'] == 'true'" expr-type="expr" not="" not-type=""/>
+      <openBlock/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="image_lock" object-type="object"/>
+      <closeBlock/>
+      <ifExpr expr="$GLOBALS['lvl1'] == 'true'" expr-type="expr" not="" not-type=""/>
+      <ifExpr expr="$GLOBALS['lvl2'] == 'true'" expr-type="expr" not="" not-type=""/>
+      <ifExpr expr="$GLOBALS['lvl3'] == 'true'" expr-type="expr" not="" not-type=""/>
+      <ifExpr expr="$GLOBALS['lvl4'] == 'true'" expr-type="expr" not="" not-type=""/>
+      <ifExpr expr="$GLOBALS['lvl5'] == 'true'" expr-type="expr" not="" not-type=""/>
+      <ifExpr expr="$GLOBALS['lvl6'] == 'true'" expr-type="expr" not="" not-type=""/>
+      <gameLoadScene dest="Finish" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  <method name="doImage_lockMouseDownLeft">
+      <ifVar method="equals" method-type="" name="lvl1" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <gameLoadScene dest="Map" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <else/>
+      <message kind="ERROR" kind-type="string" value="Упс! Вы ещё не нашли карту!" value-type="string" wait="" wait-type=""/>
+    </method>
+  <method name="doButton_gameMouseDownLeft">
+      <ifVar method="equals" method-type="" name="lvl6" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <gameLoadScene dest="LevelSix" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <closeBlock/>
+      <ifVar method="equals" method-type="" name="lvl5" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <gameLoadScene dest="LevelFive" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <closeBlock/>
+      <ifVar method="equals" method-type="" name="lvl4" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <gameLoadScene dest="LevelFour" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <closeBlock/>
+      <ifVar method="equals" method-type="" name="lvl3" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <gameLoadScene dest="LevelThree" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <closeBlock/>
+      <ifVar method="equals" method-type="" name="lvl2" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <gameLoadScene dest="LevelTwo" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <closeBlock/>
+      <ifVar method="equals" method-type="" name="lvl1" name-type="" not="1" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <gameLoadScene dest="LevelOne" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+      <closeBlock/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Map">
+    
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImage_turtleMouseDownL">
+      <loadForm form="LevelTwo" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doImage_dragonMouseDownL">
+      <loadForm form="LevelThree" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doImage_frogMouseDownL">
+      <loadForm form="LevelFour" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doImage_hippoMouseDownL">
+      <loadForm form="LevelFive" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doImage_elephantsMouseDownL">
+      <loadForm form="LevelSix" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doImage_turtleMouseEn">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="0.7" value-type="float"/>
+    </method>
+  <method name="doImage_turtleMouseE">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doImage_dragonMouseEn">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="0.7" value-type="float"/>
+    </method>
+  <method name="doImage_dragonMouseE">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doImage_frogMouseEn">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="0.7" value-type="float"/>
+    </method>
+  <method name="doImage_frogMouseE">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doImage_hippoMouseEn">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="0.7" value-type="float"/>
+    </method>
+  <method name="doImage_hippoMouseE">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doImage_elephantsMouseEn">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="0.7" value-type="float"/>
+    </method>
+  <method name="doImage_elephantsMouseE">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doButton_backMouseDownL">
+      <toast value="Упс! Произошла ошибка: новостей нет." value-type="string"/>
+    </method>
+  
+  <method name="doConstruct">
+      <setVar name="lvl2" name-type="" value="$this-&gt;ini-&gt;get('lvl2','monuments')" value-type="expr"/>
+      <setVar name="lvl3" name-type="" value="$this-&gt;ini-&gt;get('lvl3','monuments')" value-type="expr"/>
+      <setVar name="lvl4" name-type="" value="$this-&gt;ini-&gt;get('lvl4','monuments')" value-type="expr"/>
+      <setVar name="lvl5" name-type="" value="$this-&gt;ini-&gt;get('lvl5','monuments')" value-type="expr"/>
+      <setVar name="lvl6" name-type="" value="$this-&gt;ini-&gt;get('lvl6','monuments')" value-type="expr"/>
+      <ifVar method="equals" method-type="" name="lvl2" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <fadeIn continue="" continue-type="" duration="100" duration-type="integer" object="turtle_ok" object-type="object"/>
+      <closeBlock/>
+      <ifVar method="equals" method-type="" name="lvl3" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <fadeIn continue="" continue-type="" duration="100" duration-type="integer" object="dragon_ok" object-type="object"/>
+      <closeBlock/>
+      <ifVar method="equals" method-type="" name="lvl4" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <fadeIn continue="" continue-type="" duration="100" duration-type="integer" object="frog_ok" object-type="object"/>
+      <closeBlock/>
+      <ifVar method="equals" method-type="" name="lvl5" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <fadeIn continue="" continue-type="" duration="100" duration-type="integer" object="hippo_ok" object-type="object"/>
+      <closeBlock/>
+      <ifVar method="equals" method-type="" name="lvl6" name-type="" not="" not-type="" value="true" value-type="string"/>
+      <openBlock/>
+      <fadeIn continue="" continue-type="" duration="100" duration-type="integer" object="elephants_ok" object-type="object"/>
+      <closeBlock/>
+    </method>
+  
+  <method name="doImage_turtleMouseEnter">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="0.5" value-type="float"/>
+    </method>
+  <method name="doImage_turtleMouseExit">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doImage_dragonMouseExit">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doImage_frogMouseExit">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doImage_hippoMouseExit">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doImage_elephantsMouseExit">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="1" value-type="float"/>
+    </method>
+  <method name="doImage_dragonMouseEnter">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="0.5" value-type="float"/>
+    </method>
+  <method name="doImage_frogMouseEnter">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="0.5" value-type="float"/>
+    </method>
+  <method name="doImage_hippoMouseEnter">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="0.5" value-type="float"/>
+    </method>
+  <method name="doImage_elephantsMouseEnter">
+      <fadeTo continue="" continue-type="" duration="250" duration-type="integer" object="~sender" object-type="object" value="0.5" value-type="float"/>
+    </method>
+  <method name="doImage_turtleMouseDownLeft">
+      <gameLoadScene dest="LevelTwo" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  <method name="doImage_dragonMouseDownLeft">
+      <gameLoadScene dest="LevelThree" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  <method name="doImage_frogMouseDownLeft">
+      <gameLoadScene dest="LevelFour" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  <method name="doImage_hippoMouseDownLeft">
+      <gameLoadScene dest="LevelFive" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  <method name="doImage_elephantsMouseDownLeft">
+      <gameLoadScene dest="LevelSix" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
+    </method>
+  </class>
+</root>
