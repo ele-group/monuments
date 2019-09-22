@@ -7,21 +7,7 @@ use php\gui\event\UXKeyEvent;
 
 class Screen extends AbstractForm
 {
-    /**
-     * @event panel_control.mouseEnter 
-     */
-    function doPanel_controlMouseEnter(UXMouseEvent $e = null)
-    {    
-        
-    }
 
-    /**
-     * @event panel_control.mouseExit 
-     */
-    function doPanel_controlMouseExit(UXMouseEvent $e = null)
-    {    
-        
-    }
 
     /**
      * @event circle_close.mouseDown-Left 

@@ -104,12 +104,7 @@
     </method>
   
   
-  <method name="doObject_playerCollisionimage12">
-      <elementDestroy object="~sender" object-type="object"/>
-      <phpLine expr="$lvl1 = 'true';" expr-type="expr"/>
-      <phpLine expr="$this-&gt;ini-&gt;set('lvl1',$lvl1,'monuments');" expr-type="expr"/>
-      <gameLoadScene dest="Map" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
-    </method>
+  
   <method name="doObject_playerCollisionimage7">
       <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="appleBonus_2" object-type="object" value="1" value-type="float"/>
     </method>
@@ -127,6 +122,12 @@
     </method>
   <method name="doObject_playerCollisionimageAlt">
       <jumpingToStart object="~sender" object-type="object"/>
+    </method>
+  <method name="doObject_playerCollisionimage12">
+      <elementDestroy object="~sender" object-type="object"/>
+      <phpLine expr="$lvl1 = 'true'" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('lvl1',$lvl1,'monuments')" expr-type="expr"/>
+      <gameLoadScene dest="Map" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
     </method>
   </class>
 </root>

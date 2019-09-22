@@ -105,10 +105,11 @@
   <method name="doAppleRed_3Destroy">
       <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="label_eat" object-type="object" value="1" value-type="float"/>
     </method>
+  
   <method name="doObject_playerCollisionimage11">
       <elementDestroy object="~sender" object-type="object"/>
-      <phpLine expr="$lvl2 = 'true';" expr-type="expr"/>
-      <phpLine expr="$this-&gt;ini-&gt;set('lvl2',$lvl2,'monuments');" expr-type="expr"/>
+      <phpLine expr="$lvl2 = 'true'" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('lvl2',$lvl2,'monuments')" expr-type="expr"/>
       <gameLoadScene dest="Turtle" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
     </method>
   </class>

@@ -107,10 +107,12 @@
   <method name="doAppleBonus_2Destroy">
       <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="label_eat" object-type="object" value="1" value-type="float"/>
     </method>
+  
+  
   <method name="doObject_playerCollisionimage17">
       <elementDestroy object="~sender" object-type="object"/>
-      <phpLine expr="$lvl5 = 'true';" expr-type="expr"/>
-      <phpLine expr="$this-&gt;ini-&gt;set('lvl5',$lvl5,'monuments');" expr-type="expr"/>
+      <phpLine expr="$lvl5 = 'true'" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('lvl5',$lvl5,'monuments')" expr-type="expr"/>
       <gameLoadScene dest="Hippo" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
     </method>
   </class>
