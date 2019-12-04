@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Вова" authorOS="Windows 8.1" createdAt="1486143732868" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Памятники природы Александровского района" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1569162876142">
+<project author="Вова" authorOS="Windows 8.1" createdAt="1486143732868" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Памятники природы Александровского района" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1575140213906">
   <openedFiles>
   <file selected="1" src="Памятники природы Александровского района.dnproject"/>
     <file src="src/app/forms/Screen.php"/>
