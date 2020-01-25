@@ -118,11 +118,13 @@
       <fadeTo continue="" continue-type="" duration="500" duration-type="integer" object="label_eat" object-type="object" value="1" value-type="float"/>
     </method>
   
+  
+  
   <method name="doObject_playerCollisiondragon">
       <elementDestroy object="~sender" object-type="object"/>
       <phpLine expr="$lvl3 = 'true'" expr-type="expr"/>
       <phpLine expr="$this-&gt;ini-&gt;set('lvl3',$lvl3,'monuments')" expr-type="expr"/>
-      <gameLoadScene dest="Turtle" dest-type="form" source="originForm('Dragon')" source-type="object"/>
+      <gameLoadScene dest="Dragon" dest-type="form" source="originForm('Screen')-&gt;reflection" source-type="object"/>
     </method>
   </class>
 </root>

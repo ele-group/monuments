@@ -95,8 +95,8 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 $e = $event ?: $e; // legacy code from 16 rc-2
 
 		$e->sender->free();
-		$lvl1 = 'true';;
-		$this->ini->set('lvl1',$lvl1,'monuments');;
+		$lvl1 = 'true';
+		$this->ini->set('lvl1',$lvl1,'monuments');
 		$this->originForm('Screen')->reflection->phys->loadScene('Map');
 
         

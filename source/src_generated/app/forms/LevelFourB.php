@@ -165,8 +165,8 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 $e = $event ?: $e; // legacy code from 16 rc-2
 
 		$e->sender->free();
-		$lvl4 = 'true';;
-		$this->ini->set('lvl4',$lvl4,'monuments');;
+		$lvl4 = 'true';
+		$this->ini->set('lvl4',$lvl4,'monuments');
 		$this->originForm('Screen')->reflection->phys->loadScene('Frog');
 
         

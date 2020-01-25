@@ -108,8 +108,8 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 $e = $event ?: $e; // legacy code from 16 rc-2
 
 		$e->sender->free();
-		$lvl6 = 'true';;
-		$this->ini->set('lvl6',$lvl6,'monuments');;
+		$lvl6 = 'true';
+		$this->ini->set('lvl6',$lvl6,'monuments');
 		$this->originForm('Screen')->reflection->phys->loadScene('Elephant');
 
         

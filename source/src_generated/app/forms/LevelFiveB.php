@@ -119,8 +119,8 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 $e = $event ?: $e; // legacy code from 16 rc-2
 
 		$e->sender->free();
-		$lvl5 = 'true';;
-		$this->ini->set('lvl5',$lvl5,'monuments');;
+		$lvl5 = 'true';
+		$this->ini->set('lvl5',$lvl5,'monuments');
 		$this->originForm('Screen')->reflection->phys->loadScene('Hippo');
 
         

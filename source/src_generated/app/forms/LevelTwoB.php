@@ -95,8 +95,8 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 $e = $event ?: $e; // legacy code from 16 rc-2
 
 		$e->sender->free();
-		$lvl2 = 'true';;
-		$this->ini->set('lvl2',$lvl2,'monuments');;
+		$lvl2 = 'true';
+		$this->ini->set('lvl2',$lvl2,'monuments');
 		$this->originForm('Screen')->reflection->phys->loadScene('Turtle');
 
         

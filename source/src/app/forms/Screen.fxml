@@ -42,6 +42,9 @@
         <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
           <children/>
         </AnchorPane>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+          <children/>
+        </AnchorPane>
       </children>
     </GamePane>
     <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_control" layoutX="928" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="80" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">

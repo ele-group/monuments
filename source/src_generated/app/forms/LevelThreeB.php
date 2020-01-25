@@ -110,9 +110,9 @@ $e = $event ?: $e; // legacy code from 16 rc-2
 $e = $event ?: $e; // legacy code from 16 rc-2
 
 		$e->sender->free();
-		$lvl3 = 'true';;
-		$this->ini->set('lvl3',$lvl3,'monuments');;
-		$this->originForm('Dragon')->phys->loadScene('Turtle');
+		$lvl3 = 'true';
+		$this->ini->set('lvl3',$lvl3,'monuments');
+		$this->originForm('Screen')->reflection->phys->loadScene('Dragon');
 
         
     }
